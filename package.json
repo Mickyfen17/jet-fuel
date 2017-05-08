@@ -5,7 +5,7 @@
   "scripts": {
     "start": "nodemon server/index.js --ignore public/",
     "watch": "gulp sass:watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha"
   },
   "author": "",
   "license": "ISC",
