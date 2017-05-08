@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon server/index.js --ignore public/",
+    "start": "NODE_ENV=development nodemon server/index.js --ignore public/",
     "watch": "gulp sass:watch",
     "test": "./node_modules/.bin/mocha"
   },
