@@ -27,13 +27,69 @@
   #folders {
     .folder-btn {
       font-size: 1.2em;
-      margin: 0 10px;
+      margin: 5px 10px;
     }
   }
   #urls {
     .card {
       width: 40%;
       margin: 5px;
+    }
+  }
+}
+
+@media screen and (max-width: 680px) {
+  #urls {
+    .card {
+      width: 82%;
+      .url-link {
+        font-size: 1.3em;
+      }
+    }
+  }
+  .content {
+    .form-container {
+      form {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 580px) {
+  #folders {
+    .folder-btn {
+      width: 46%;
+      margin: 5px;
+      padding: 10px 5px;
+      font-size: 1em;
+    }
+  }
+  #urls {
+    .card {
+      font-size: 0.9em;
+      width: 82%;
+      .url-link {
+        font-size: 1.2em;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .content {
+    .form-container {
+      .btn-submit,
+      .btn-sort {
+        padding: 5px;
+      }
+    }
+  }
+  #folders {
+    .folder-btn {
+      width: 46%;
+      padding: 10px 2.5px;
+      font-size: 0.9em;
     }
   }
 }
